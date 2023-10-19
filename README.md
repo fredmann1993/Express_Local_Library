@@ -139,35 +139,35 @@ Feel free to explore the different features and functionalities provided by the 
 ## Project Structure
 The Express Local Library project follows a well-organized directory structure that adheres to best practices for maintainability and scalability. Here's an overview of the key directories and their purposes:
 
-Express_Local_Library: The root directory of the project.
+### Express_Local_Library: The root directory of the project.
 
-app.js: The main entry point for the Express application, where application configuration and routes are defined.
+### app.js: The main entry point for the Express application, where application configuration and routes are defined.
 
-bin: This directory contains the application startup script.
+### bin: This directory contains the application startup script.
 
-www: The script responsible for launching the web server and configuring the server to listen on a specified port.
-package.json: The project's package.json file, which contains metadata and dependencies information.
+### www: The script responsible for launching the web server and configuring the server to listen on a specified port.
 
-package-lock.json: The package-lock.json file that records the exact versions of dependencies used in the project.
+### package.json: The project's package.json file, which contains metadata and dependencies information.
 
-node_modules: The directory where project dependencies are installed. It typically contains numerous subdirectories and files for each installed package.
+### package-lock.json: The package-lock.json file that records the exact versions of dependencies used in the project.
 
-public: The directory for storing static assets like stylesheets, images, and JavaScript files.
+### public: The directory for storing static assets like stylesheets, images, and JavaScript files.
 
-stylesheets: A subdirectory under public for storing CSS stylesheets used to style the application's views.
-routes: The directory that contains route definitions and controllers for handling HTTP requests and mapping them to specific actions.
+### stylesheets: A subdirectory under public for storing CSS stylesheets used to style the application's views.
 
-index.js: The main route file for defining routes related to the application's main functionality.
+### routes: The directory that contains route definitions and controllers for handling HTTP requests and mapping them to specific actions.
 
-users.js: A route file that could be used for user-related functionality if applicable to your project.
+### index.js: The main route file for defining routes related to the application's main functionality.
 
-views: The directory containing Pug templates used for rendering dynamic HTML views.
+### users.js: A route file that could be used for user-related functionality if applicable to your project.
 
-error.pug: A Pug template for rendering error pages.
+### views: The directory containing Pug templates used for rendering dynamic HTML views.
 
-index.pug: The main view template that serves as the home page or landing page of the application.
+### error.pug: A Pug template for rendering error pages.
 
-layout.pug: A layout template that defines the common structure and components used in various views.
+### index.pug: The main view template that serves as the home page or landing page of the application.
+
+### layout.pug: A layout template that defines the common structure and components used in various views.
 
 This project structure adheres to a model-view-controller (MVC) architectural pattern, which separates concerns and promotes maintainability and scalability. It's organized in a way that makes it easy to locate and work with different components and files, ensuring a well-structured and readable codebase.
 

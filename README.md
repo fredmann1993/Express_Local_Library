@@ -215,8 +215,7 @@ luxon: A library for handling dates and times in JavaScript.
 mongoose: A MongoDB object modeling tool.
 morgan: HTTP request logger middleware for Node.js.
 pug: A high-performance template engine for rendering HTML.
-License
-This project is licensed under the MIT License. For more details, please refer to the LICENSE file.
+
 
 ## Version History
 1.0.0: Initial release

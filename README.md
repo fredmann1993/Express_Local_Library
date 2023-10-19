@@ -60,7 +60,7 @@ npm install mongoose
 ```
 Express Local Library uses the Pug templating engine for views. You don't need to install Pug separately, as it comes bundled with Express. However, you should configure your Express application to use Pug as the view engine. Add the following lines to your Express app setup in app.js:
 
-Populating the Database with Predefined Data
+## Populating the Database with Predefined Data
 The Express Local Library application includes predefined data that can be loaded into the database using the populatedb.js script. To populate the database, run the following command:
 
 
@@ -74,8 +74,6 @@ Option 1: Specifying the Port as an Environment Variable
 
 You can specify the port you want the application to run on by setting an environment variable. This allows you to choose a custom port. For example, to run the application on port 8080, you can use the following command:
 
-
-
 ```javascript
 PORT=8080 npm run start
 Option 2: Using the Default Port (3000)
@@ -84,7 +82,7 @@ Option 2: Using the Default Port (3000)
 If you don't specify a custom port, the application will run on the default port, which is 3000. You can start the application without specifying the port as follows:
 
 
-npm run start
+**npm run start**
 Whichever option you choose, the application will start, and you can access it by navigating to http://localhost:3000 or the specified port in your web browser.
 
 Now, you're ready to use the Express Local Library application and explore its features for managing your book library efficiently.

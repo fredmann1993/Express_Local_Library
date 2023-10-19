@@ -67,7 +67,7 @@ The Express Local Library application includes predefined data that can be loade
 **'node populatedb.js mongodb:host:27107/database**'
 Replace mongodb:host:27107/database with the actual connection string for your MongoDB instance. This command will load the predefined data into the database, allowing you to work with sample records.
 
-Starting the Application
+## Starting the Application
 Once you've installed all the prerequisites, you can start the Express Local Library application. You have the option to specify the port as an environment variable or use the default port, which is 3000.
 
 Option 1: Specifying the Port as an Environment Variable
@@ -89,10 +89,10 @@ Whichever option you choose, the application will start, and you can access it b
 
 Now, you're ready to use the Express Local Library application and explore its features for managing your book library efficiently.
 
-Usage
+## Usage
 The Express Local Library application allows users to perform various operations related to managing books, authors, book instances, and genres. This section provides a brief overview of how to use the application for different tasks.
 
-Create (Adding a Book)
+### Create (Adding a Book)
 To add a new book to the library, follow these steps:
 
 Open your web browser and navigate to the Express Local Library application running at http://localhost:3000 or the appropriate URL.
@@ -103,7 +103,7 @@ Fill out the required information, including the book's title, author, summary, 
 
 Click the "Submit" or "Add Book" button to create a new book record.
 
-Read (Searching for Books)
+### Read (Searching for Books)
 To search for books and retrieve book information, use the search functionality:
 
 Visit the Express Local Library application at http://localhost:3000.
@@ -114,7 +114,7 @@ Enter keywords, such as a book title or author name, and submit your search quer
 
 View the search results to find books that match your query. Click on a book to access detailed information.
 
-Update (Updating Book Information)
+### Update (Updating Book Information)
 To update information about a book, follow these steps:
 
 Access the Express Local Library application and find the book you want to update.
@@ -125,7 +125,7 @@ Modify the book's details as needed, such as the title, author, summary, ISBN, g
 
 Save your changes by clicking an "Update" or "Save" button.
 
-Delete (Deleting a Book)
+### Delete (Deleting a Book)
 To remove a book from the library, use the delete operation:
 
 Navigate to the Express Local Library application and find the book you want to delete.
@@ -138,7 +138,7 @@ The application's user interface is designed to make it easy to interact with th
 
 Feel free to explore the different features and functionalities provided by the Express Local Library application to manage and browse your library's collection effectively.
 
-Project Structure
+## Project Structure
 The Express Local Library project follows a well-organized directory structure that adheres to best practices for maintainability and scalability. Here's an overview of the key directories and their purposes:
 
 Express_Local_Library: The root directory of the project.
@@ -173,7 +173,7 @@ layout.pug: A layout template that defines the common structure and components u
 
 This project structure adheres to a model-view-controller (MVC) architectural pattern, which separates concerns and promotes maintainability and scalability. It's organized in a way that makes it easy to locate and work with different components and files, ensuring a well-structured and readable codebase.
 
-Models
+## Models
 The Express Local Library project uses Mongoose models to store and manage data related to books, book instances, authors, and genres. Here's an overview of the models:
 
 Book Model: Represents book-related data, including title, copies, author, and more.
@@ -186,13 +186,13 @@ Genre Model: Controls data regarding book genres, such as action, science fictio
 
 The models play a crucial role in defining the data structure and relationships within the application, facilitating CRUD operations and data management.
 
-Controllers
+## Controllers
 The controllers in the Express Local Library project perform CRUD (Create, Read, Update, Delete) operations on different categories, including books, authors, book instances, and genres. These controllers handle user requests, interact with the models, and render views for various actions.
 
-Views
+## Views
 The "views" directory contains Pug templates that provide visual information about specific book, book instance, author, and genre details. These templates render information such as the number of books, author names, available book instances, and genre.
 
-Routes
+## Routes
 The "routes" directory is responsible for defining and handling all routes related to performing CRUD operations. It provides an interface for HTTP GET, POST, UPDATE, and DELETE operations on books, authors, book instances, and genres.
 Routes defined for the library
 catalog/  The home/index page.
@@ -204,7 +204,7 @@ catalog/<object>/<id>/delete � The form to delete a specific book, bookinstanc
 
 
 
-Dependencies
+## Dependencies
 The Express Local Library project relies on the following dependencies:
 
 async: A utility module for handling asynchronous operations.
@@ -220,13 +220,13 @@ pug: A high-performance template engine for rendering HTML.
 License
 This project is licensed under the MIT License. For more details, please refer to the LICENSE file.
 
-Version History
+## Version History
 1.0.0: Initial release
 Contact Information
 For any questions or inquiries related to the project, please contact Fisayo Fasuyi <fasuyifisayo@gmail.com>.
 
-Reference
-If you're interested in learning more about Express.js and Node.js, the following Mozilla Developer Network (MDN) tutorial is a valuable resource that provides in-depth information and examples:
+## Reference
+If you're interested in learning more about Express.js and Node.js, the following Mozilla Developer Network (MDN) tutorial is a valuable resource that provides in-depth information and examples: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs
 
 MDN Express/Node.js Tutorial
 This tutorial offers comprehensive guidance on building web applications with Express.js and Node.js, making it an excellent companion to further expand your knowledge in web development.
